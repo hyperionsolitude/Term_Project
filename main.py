@@ -72,7 +72,7 @@ model.add(Dropout(rate=0.25)) # to avoid overfitting
 model.add(Flatten()) #reduce to 1 dimension
 model.add(Dense(units=64,activation='relu')) # multilayer perceptron with 64 outputs
 model.add(Dropout(rate=0.25)) # to avoid overfitting
-model.add(Dense(units=16,activation='relu')) # multilayer perceptron with 64 outputs
+model.add(Dense(units=16,activation='relu')) # multilayer perceptron with 16 outputs
 model.add(Dropout(rate=0.25)) # to avoid overfitting
 model.add(Dense(units=1,activation='sigmoid')) # multilayer perceptron with 1 output
 model.summary()
